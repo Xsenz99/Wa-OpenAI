@@ -88,7 +88,7 @@ Menampilkan source code bot yang dipakai`)
         case "ai": case "openai": case "chatgpt": case "ask":
           try {
             // tidak perlu diisi apikeynya disini, karena sudah diisi di file key.json
-            if (setting.keyopenai === "ISI_APIKEY_OPENAI_DISINI") return reply("Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys");
+            if (setting.keyopenai === "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") return reply("Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys");
             if (!text) return reply(`Chat dengan AI.\n\nContoh:\n${prefix}${command} Apa itu resesi`);
             const configuration = new Configuration({
               apiKey: setting.keyopenai,
@@ -113,7 +113,7 @@ Menampilkan source code bot yang dipakai`)
         case "img": case "ai-img": case "image": case "images": case "dall-e": case "dalle":
           try {
             // tidak perlu diisi apikeynya disini, karena sudah diisi di file key.json
-            if (setting.keyopenai === "ISI_APIKEY_OPENAI_DISINI") return reply("Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys");
+            if (setting.keyopenai === "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") return reply("Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys");
             if (!text) return reply(`Membuat gambar dari AI.\n\nContoh:\n${prefix}${command} Wooden house on snow mountain`);
             const configuration = new Configuration({
               apiKey: setting.keyopenai,
